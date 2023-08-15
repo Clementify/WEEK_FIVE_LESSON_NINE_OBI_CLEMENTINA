@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    background-image: url(./images/cloud-blue-sky_1232-3108.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body{
+    margin: 0px 20px;
+    height: 100vh;
+    
+}
+
+.input{
+    height: 100px;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.locationinput{
+    height: 60px;
+    width: 300px;
+    border-radius: 30px;
+}
+.description{
+    height: 200px;
+    /* background-color: cadetblue; */
+    display: flex;
+    justify-content: center;align-items: center;
+}
+.button{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.parameters{
+    /* background-color: greenyellow; */
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
